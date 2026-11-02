@@ -1,0 +1,10 @@
+{
+  "packages": [
+    {
+      "id": "youtube.leanback.v4",
+      "title": "YouTube",
+      "iconUri": "https://raw.githubusercontent.com/TaeMoo88/youtube-webos/main/assets/icon.png",
+      "manifestUrl": "https://github.com/TaeMoo88/youtube-webos/releases/latest/download/youtube.leanback.v4.manifest.json"
+    }
+  ]
+}
