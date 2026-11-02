@@ -1,1 +1,1 @@
-pnpm exec lint-staged
+/usr/bin/pnpm exec lint-staged
