@@ -1,15 +1,15 @@
 {
   "id": "youtube.leanback.v4",
-  "version": "0.5.10",
+  "version": "0.5.6",
   "type": "web",
   "title": "YouTube",
   "appDescription": "Personal YouTube app build for webOS.",
   "iconUri": "https://raw.githubusercontent.com/TaeMoo88/youtube-webos/main/assets/icon.png",
   "sourceUrl": "https://github.com/TaeMoo88/youtube-webos",
   "rootRequired": false,
-  "ipkUrl": "https://github.com/TaeMoo88/youtube-webos/releases/download/v0.5.10/youtube.leanback.v4_0.5.10_all.ipk",
+  "ipkUrl": "https://github.com/TaeMoo88/youtube-webos/releases/download/v0.5.11/youtube.leanback.v4_0.5.11_all.ipk",
   "ipkHash": {
-    "sha256": "1125def7046aeebc147d37da23bb30bc139690452dd5e78ca64dd268555b8855"
+    "sha256": "c11effbe4191e68f871ef53c22fa1ad33af6939b33b58157b6a2761f4090ce5a"
   },
-  "ipkSize": 900142
+  "ipkSize": 899774
 }
