@@ -15,7 +15,7 @@
   "bgImage": "bgImage.png",
   "support360Content": true,
   "supportTouchMode": "virtual",
-  "supportPortraitMode": "true",
+  "supportPortraitMode": true,
   "checkUpdateOnLaunch": false,
   "accessibility": {
     "supportsAudioGuidance": true
