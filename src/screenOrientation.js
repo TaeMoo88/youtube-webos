@@ -1,24 +1,10 @@
-function initializeScreenOrientation() {
-  const webOS = window.webOSSystem;
+document.addEventListener('screenOrientationChange', function (event) {
+  console.log('handleScreenOrientationChange', event.screenOrientation);
+  window.webOSSystem.setWindowOrientation(event.screenOrientation);
+});
 
-  // Only supported on rotatable StanbyME models
-  if (!webOS || webOS.currentOrientation === undefined) return;
-
-  const updateOrientation = (orientation) => {
-    webOS.setWindowOrientation(orientation);
-  };
-
-  document.addEventListener('screenOrientationChange', (event) => {
-    updateOrientation(event.screenOrientation);
-  });
-
-  // Apply the current physical orientation on startup
-  updateOrientation(webOS.screenOrientation);
-
-  // Reapply orientation when returning to the app
-  document.addEventListener('focus', () => {
-    updateOrientation(webOS.screenOrientation);
-  });
-}
-
-initializeScreenOrientation();
+window.onresize = function () {
+  console.log(
+    'width x height : ' + window.innerWidth + ' x ' + window.innerHeight
+  );
+};
