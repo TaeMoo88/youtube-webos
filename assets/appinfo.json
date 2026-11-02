@@ -14,6 +14,7 @@
   "imageForRecents": "imageForRecents.png",
   "bgImage": "bgImage.png",
   "support360Content": true,
+  "supportTouchMode": "virtual",
   "checkUpdateOnLaunch": false,
   "accessibility": {
     "supportsAudioGuidance": true
